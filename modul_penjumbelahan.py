@@ -14,3 +14,83 @@ n = 10
 # Looping angka n
 for angka in range(1, n+1):
     print(angka)
+
+print("=============================================================")
+
+class Tumbuhan:
+    def __init__(self, nama, jenis, harga, jumblah):
+        self.nama = nama
+        self.jenis = jenis
+        self.harga = harga
+        self.jumblah = jumblah
+
+    def info_tumbuhan(self):
+        print(f"Nama: {self.nama}")
+        print(f"Jenis: {self.jenis}")
+        print(f"Harga: {self.harga}")
+        print(f"jumblah: {self.jumblah}")
+
+
+class TanamanHias(Tumbuhan):
+    def __init__(self, nama, jenis, harga, warna, jumblah):
+        super().__init__(nama, jenis, harga, jumblah)  # Call the parent class's __init__ method
+        self.warna = warna
+        # self.jumblah = jumbla
+
+    def info_tanaman_hias(self):
+        super().info_tumbuhan()
+        print(f"Warna: {self.warna}")
+        # print(f"Jumlah: {self.jumblah}")
+
+
+# Contoh penggunaan kelas Tumbuhan
+tumbuhan1 = Tumbuhan("Mawar", "Bunga", 50000, 11)
+tumbuhan1.info_tumbuhan()
+
+# Contoh penggunaan kelas Turunan TanamanHias
+tanaman_hias1 = TanamanHias("Anggrek", "Bunga", 100000, "Ungu", 22)
+tanaman_hias1.info_tanaman_hias()
+
+
+print("================================================")
+
+class Hewan:
+    def __init__(self, nama, jenis, habitat):
+        self.nama = nama
+        self.jenis = jenis
+        self.habitat = habitat
+
+    def info(self):
+        return f"Nama: {self.nama}, Jenis: {self.jenis}, Habitat: {self.habitat}"
+
+
+class Mamalia(Hewan):
+    def __init__(self, nama, jenis, habitat, ukuran, warna_bulu):
+        super().__init__(nama, jenis, habitat)
+        self.ukuran = ukuran
+        self.warna_bulu = warna_bulu
+
+    def info(self):
+        return f"Nama: {self.nama}, Jenis: {self.jenis}, Habitat: {self.habitat}, Ukuran: {self.ukuran}, Warna Bulu: {self.warna_bulu}"
+
+
+class Gajah(Mamalia):
+    def __init__(self, nama, habitat, ukuran, warna_bulu, taring_panjang):
+        super().__init__(nama, "Gajah", habitat, ukuran, warna_bulu)
+        self.taring_panjang = taring_panjang
+
+    def info(self):
+        return f"Nama: {self.nama}, Jenis: {self.jenis}, Habitat: {self.habitat}, Ukuran: {self.ukuran}, Warna Bulu: {self.warna_bulu}, Taring Panjang: {self.taring_panjang}"
+
+
+# Contoh penggunaan kelas Hewan
+hewan1 = Hewan("Harimau", "Karnivora", "Hutan")
+print(hewan1.info())
+
+# Contoh penggunaan kelas turunan Mamalia
+mamalia1 = Mamalia("Singa", "Karnivora", "Savana", "Besar", "Kuning")
+print(mamalia1.info())
+
+# Contoh penggunaan kelas turunan Gajah
+gajah1 = Gajah("Gajah Sumatera", "Hutan", "Besar", "Abu-abu", "Panjang")
+print(gajah1.info())
