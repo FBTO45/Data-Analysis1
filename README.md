@@ -1,8 +1,15 @@
-https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white
-https://img.shields.io/badge/hotjar-FD3A5C?style=for-the-badge&logo=hotjar&logoColor=white
-https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white
-https://img.shields.io/badge/Matomo-3152A0?style=for-the-badge&logo=Matomo&logoColor=white
-https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white
+<p align='center'>
+<!--   <a href="https://php.org/en/">
+    <img src="https://img.shields.io/badge/Google%20Analytics-E37400?style=for-the-badge&logo=google%20analytics&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://php.org/en/">
+    <img src="https://img.shields.io/badge/hotjar-FD3A5C?style=for-the-badge&logo=hotjar&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://php.org/en/">
+    <img src="https://img.shields.io/badge/Kibana-005571?style=for-the-badge&logo=Kibana&logoColor=white"/></a>&nbsp;&nbsp;
+<a href="https://php.org/en/">
+    <img src="https://img.shields.io/badge/Matomo-3152A0?style=for-the-badge&logo=Matomo&logoColor=white"/></a>&nbsp;&nbsp; -->
+<a href="https://www.tableau.com/">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=Tableau&logoColor=white"/></a>&nbsp;&nbsp;
+</p>
 
 # <summary><strong>Hi there :wave: , I'm Goo!</strong></summary>
 Lifelong Learner, currently working as budagh kompeni.
